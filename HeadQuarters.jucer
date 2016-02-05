@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="shUksx" name="HeadQuarters" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.HeadQuarters" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0">
+  <MAINGROUP id="DdwAJY" name="HeadQuarters">
+    <GROUP id="{46144DCF-B6C7-6F63-F97E-DF8E016BC751}" name="Source">
+      <FILE id="yqJuoR" name="NotificationManager.cpp" compile="1" resource="0"
+            file="Source/NotificationManager.cpp"/>
+      <FILE id="dKH74m" name="NotificationManager.h" compile="0" resource="0"
+            file="Source/NotificationManager.h"/>
+      <FILE id="qPXy1c" name="NotificationWindow.cpp" compile="1" resource="0"
+            file="Source/NotificationWindow.cpp"/>
+      <FILE id="ow0tZ2" name="NotificationWindow.h" compile="0" resource="0"
+            file="Source/NotificationWindow.h"/>
+      <FILE id="HOGnBm" name="Controls.cpp" compile="1" resource="0" file="Source/Controls.cpp"/>
+      <FILE id="VdFzHN" name="Controls.h" compile="0" resource="0" file="Source/Controls.h"/>
+      <FILE id="U6lEqe" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="yZ87jm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="veRCCU" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="HeadQuarters"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="HeadQuarters"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
