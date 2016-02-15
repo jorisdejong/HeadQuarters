@@ -62,7 +62,7 @@ void NotificationManager::notificationFinished(NotificationWindow *window, const
         }
     }
     
-    //make sure there are no other animations still running
+    //first make sure there are no other animations still running
     if ( ! Desktop::getInstance().getAnimator().isAnimating() )
     {
         //go through the list of growls and position them correctly
